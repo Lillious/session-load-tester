@@ -14,7 +14,7 @@ bun run index.ts
 
 To compile:
 ```bash
-bun run compile
+bun compile
 ```
 
 Usage:
