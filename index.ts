@@ -43,7 +43,7 @@ if (waitIndex === -1 || !wait) {
     process.exit(1);
 }
 
-if (isNaN(Number(wait)) || Number(wait) < 1) {
+if (isNaN(Number(wait)) || Number(wait) === 0) {
     console.error('Please provide a valid wait');
     process.exit(1);
 }
