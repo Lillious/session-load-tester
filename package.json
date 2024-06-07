@@ -1,0 +1,14 @@
+{
+  "name": "session-load-tester",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts":{
+    "compile": "bun build ./index.ts --compile --outfile session-load-tester"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
